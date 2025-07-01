@@ -1,0 +1,19 @@
+python tts-var/main.py \
+    --prompt "A beautiful Chinese woman with graceful features, close-up portrait, long flowing black hair, wearing a traditional silk cheongsam delicately embroidered with floral patterns, face softly illuminated by ambient light, serene expression" \
+    --model_path ./pretrained_models/infinity_2b_reg.pth \
+    --vae_path ./pretrained_models/infinity_vae_d32reg.pth \
+    --text_encoder_ckpt ./pretrained_models/flan-t5-xl \
+    --seed 42 \
+    --reward_type "ir" \
+    --cal_type "value" \
+    --resample_sis 6 9 \
+    --extract_type "pca" \
+    --extract_sis 2 5 \
+    --bs_sis 8 8 6 6 6 4 2 2 2 1 1 1 1 \
+    --image_reward_model_path ./pretrained_models/ImageReward.pt \
+    --dinov2_hub_path facebookresearch/dinov2 \
+    --save_dir ./output \
+    --cfg 3.0 \
+    --tau 0.5 \
+    --pn "1M" \
+    --h_div_w 1.0

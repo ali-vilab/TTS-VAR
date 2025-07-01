@@ -1,0 +1,11 @@
+.vscode/
+.history/
+__pycache__/
+
+pretrained_models/
+tmp/
+output/
+
+env.bash
+
+.DS_Store

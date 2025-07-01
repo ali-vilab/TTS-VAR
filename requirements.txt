@@ -1,0 +1,6 @@
+accelerate
+aesthetic_predictor_v2_5
+image-reward
+hpsv2
+scikit-learn
+git+https://github.com/openai/CLIP.git
