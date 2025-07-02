@@ -220,7 +220,7 @@ def main():
         feature_model = torch.hub.load(
             args.dinov2_hub_path,
             'dinov2_vitl14_reg', # Or make this configurable
-            source="local",
+            # source="local",
         )
         feature_model.eval()
         feature_model.cuda()
