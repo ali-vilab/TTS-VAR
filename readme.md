@@ -1,6 +1,20 @@
+![header](./assets/header.png "Header")
+
 # TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation
 
-[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/1234.56789)  ![GitHub stars](https://img.shields.io/github/stars/ali-vilab/TTS-VAR.svg?style=social)
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/1234.56789)   ![GitHub stars](https://img.shields.io/github/stars/ali-vilab/TTS-VAR.svg?style=social)
+
+**A Test-Time Scaling Framework for Visual Auto-Regressive Generation\[[Paper]()\]**
+
+[Zhekai Chen](https://zhekai-chen.github.io/), [Ruihang Chu](https://ruihang-chu.github.io/), [Yukang Chen](https://yukangchen.com), [Shiwei Zhang](https://scholar.google.com/citations?user=ZO3OQ-8AAAAJ&hl=zh-CN), [Yujie Wei](https://weilllllls.github.io/), [Yingya Zhang](https://scholar.google.com/citations?user=16RDSEUAAAAJ), [Xihui Liu](https://xh-liu.github.io/)
+
+Scaling visual generation models is essential for real-world content creation, yet requires substantial training and computational expenses. Alternatively, test-time scaling has garnered growing attention due to resource efficiency and promising performance. In this work, we present TTS-VAR, the first general test-time scaling framework for visual auto-regressive (VAR) models, modeling the generation process as a path searching problem.
+
+![method](./assets/method.png "Method")
+
+To dynamically balance computational efficiency with exploration capacity, we first introduce an adaptive descending batch size schedule throughout the causal generation process.Besides, inspired by VAR's hierarchical coarse-to-fine multi-scale generation, our framework integrates two key components: (i) At coarse scales, we observe that generated tokens are hard for evaluation, possibly leading to erroneous acceptance of inferior samples or rejection of superior samples. Noticing that the coarse scales contain sufficient structural information, we propose clustering-based diversity search. It preserves structural variety through semantic feature clustering, enabling later selection on samples with higher potential. (ii) In fine scales, resampling-based potential selection prioritizes promising candidates using potential scores, which are defined as reward functions incorporating multi-scale generation history.
+
+Experiments on the powerful VAR model Infinity show a notable 8.7% GenEval score improvement (0.69→0.75). Key insights reveal that early-stage structural features effectively influence final quality, and resampling efficacy varies across generation scales.
 
 ## Quick Start
 
