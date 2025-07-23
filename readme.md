@@ -54,7 +54,7 @@ The inference arguments are list in `run.bash`, with specific explanation in `tt
 
 ### Process Arguements
 
-| Argument.          | Description                                                   | Default                                     | Explanation              |
+| Argument           | Description                                                   | Default                                     | Explanation              |
 | ------------------ | ------------------------------------------------------------- | ------------------------------------------- | ------------------------ |
 | `--reward_type`  | Type of reward model to use for reward function.              | `ir`                                      | ImageReward              |
 | `--cal_type`     | Calculation type for reward-based resampling.                 | `value`                                   |                          |
@@ -66,7 +66,7 @@ The inference arguments are list in `run.bash`, with specific explanation in `tt
 
 ### Path Arguements
 
-| Argument.                      | Description                                                  | Default                                              |
+| Argument                       | Description                                                  | Default                                              |
 | ------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------- |
 | `--aesthetic_predictor_path` | Path to aesthetic predictor model when using `aes` reward. | `./pretrained_models/aesthetic_predictor_v2_5.pth` |
 | `--siglip_encoder_path`      | Path to SigLIP encoder model when using `aes` reward.      | `./pretrained_models/siglip-so400m-patch14-384`    |
