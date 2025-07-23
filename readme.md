@@ -18,7 +18,7 @@ Experiments on the powerful VAR model Infinity show a notable 8.7% GenEval score
 
 ## News
 
-* [ ] [2025.7.24] We release [Paper]() and Github repo [TTS-VAR]().
+* [X] [2025.7.24] We release [Paper]() and Github repo [TTS-VAR]().
 
 ## Quick Start
 
