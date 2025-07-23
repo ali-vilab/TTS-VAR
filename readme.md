@@ -16,6 +16,10 @@ To dynamically balance computational efficiency with exploration capacity, we fi
 
 Experiments on the powerful VAR model Infinity show a notable 8.7% GenEval score improvement (0.69→0.75). Key insights reveal that early-stage structural features effectively influence final quality, and resampling efficacy varies across generation scales.
 
+## News
+
+* [ ] [2025.7.24] We release [Paper]() and Github repo [TTS-VAR]().
+
 ## Quick Start
 
 1. Prepare the environment
