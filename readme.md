@@ -2,9 +2,9 @@
 
 # TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation
 
-[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/1234.56789)   ![GitHub stars](https://img.shields.io/github/stars/ali-vilab/TTS-VAR.svg?style=social)
+[![arXiv](https://img.shields.io/badge/arXiv-2507.18537-b31b1b.svg)](https://arxiv.org/abs/2507.18537)   ![GitHub stars](https://img.shields.io/github/stars/ali-vilab/TTS-VAR.svg?style=social)
 
-**A Test-Time Scaling Framework for Visual Auto-Regressive Generation\[[Paper]()\]**
+**A Test-Time Scaling Framework for Visual Auto-Regressive Generation\[[Paper](https://arxiv.org/abs/2507.18537)\]**
 
 [Zhekai Chen](https://zhekai-chen.github.io/), [Ruihang Chu](https://ruihang-chu.github.io/), [Yukang Chen](https://yukangchen.com), [Shiwei Zhang](https://scholar.google.com/citations?user=ZO3OQ-8AAAAJ&hl=zh-CN), [Yujie Wei](https://weilllllls.github.io/), [Yingya Zhang](https://scholar.google.com/citations?user=16RDSEUAAAAJ), [Xihui Liu](https://xh-liu.github.io/)
 
@@ -18,7 +18,7 @@ Experiments on the powerful VAR model Infinity show a notable 8.7% GenEval score
 
 ## News
 
-* [X] [2025.7.24] We release [Paper]() and Github repo [TTS-VAR]().
+* [X] [2025.7.24] We release [Paper](https://arxiv.org/abs/2507.18537) and Github repo [TTS-VAR](https://github.com/ali-vilab/TTS-VAR).
 
 ## Quick Start
 
@@ -86,5 +86,11 @@ This code is built on top of [Infinity](https://github.com/FoundationVision/Infi
 If you find this code useful for your research, please cite our paper:
 
 ```bash
-TODO
+@misc{chen2025ttsvartesttimescalingframework,
+      title={TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation}, 
+      author={Zhekai Chen and Ruihang Chu and Yukang Chen and Shiwei Zhang and Yujie Wei and Yingya Zhang and Xihui Liu},
+      year={2025},
+      eprint={2507.18537},
+      url={https://arxiv.org/abs/2507.18537}, 
+}
 ```
