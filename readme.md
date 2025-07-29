@@ -86,11 +86,10 @@ This code is built on top of [Infinity](https://github.com/FoundationVision/Infi
 If you find this code useful for your research, please cite our paper:
 
 ```bash
-@misc{chen2025ttsvartesttimescalingframework,
-      title={TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation}, 
-      author={Zhekai Chen and Ruihang Chu and Yukang Chen and Shiwei Zhang and Yujie Wei and Yingya Zhang and Xihui Liu},
-      year={2025},
-      eprint={2507.18537},
-      url={https://arxiv.org/abs/2507.18537}, 
+@article{chen2025tts,
+  title={TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation},
+  author={Chen, Zhekai and Chu, Ruihang and Chen, Yukang and Zhang, Shiwei and Wei, Yujie and Zhang, Yingya and Liu, Xihui},
+  journal={arXiv preprint arXiv:2507.18537},
+  year={2025}
 }
 ```
