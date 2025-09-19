@@ -18,6 +18,7 @@ Experiments on the powerful VAR model Infinity show a notable 8.7% GenEval score
 
 ## News
 
+[2025.9.19] **Accepted by NeurIPS 2025!**
 * [X] [2025.7.24] We release [Paper](https://arxiv.org/abs/2507.18537) and Github repo [TTS-VAR](https://github.com/ali-vilab/TTS-VAR).
 
 ## Quick Start
